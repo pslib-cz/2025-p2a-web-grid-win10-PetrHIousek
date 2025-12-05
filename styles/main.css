@@ -1,67 +1,66 @@
 .start-panel {
-    display: grid;
-    grid-template-columns: 50px 200px 1fr;
-    grid-gap: 5px;
+  display: grid;
+  grid-template-columns: 50px 200px 1fr;
+  grid-gap: 5px;
 }
 .start-panel__icons {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-gap: 5px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 5px;
 }
 .start-panel__grid {
-    display: grid;
-    align-content: start;
-    grid-gap: 5px;
-    grid-template-areas: "office zábava" "internet zábava";
+  display: grid;
+  align-content: start;
+  grid-gap: 5px;
+  grid-template-areas: "office zábava" "internet zábava";
 }
 .apps--office {
-    grid-area: office;
+  grid-area: office;
 }
 .apps--web {
-    grid-area: internet;
+  grid-area: internet;
 }
 .apps--other {
-    grid-area: zábava;
+  grid-area: zábava;
 }
 .apps__grid {
-display: grid;
-grid-template-columns: repeat(6, 50px);
-grid-gap: 5px;
-grid-auto-rows: 50px;
-
+  display: grid;
+  grid-template-columns: repeat(6, 50px);
+  grid-gap: 5px;
+  grid-auto-rows: 50px;
 }
 .app--g2x2 {
-    grid-column-end: span 2;
-    grid-row-end: span 2;
+  grid-column-end: span 2;
+  grid-row-end: span 2;
 }
 .app--g2x1 {
-    grid-column-end: span 1;
-    grid-row-end: span 2;
+  grid-column-end: span 1;
+  grid-row-end: span 2;
 }
 .app--g1x2 {
-    grid-column-end: span 2;
-    grid-row-end: span 1;
+  grid-column-end: span 2;
+  grid-row-end: span 1;
 }
 .app--off-3 {
-    grid-column-start: 3;
+  grid-column-start: 3;
 }
 .app--off-4 {
-    grid-column-start: 5;
-    grid-row-start: 2;
+  grid-column-start: 5;
+  grid-row-start: 2;
 }
 .app--off-5 {
-    grid-row-start: 1;
-    grid-column-start: 5;
+  grid-row-start: 1;
+  grid-column-start: 5;
 }
 .app--in-3 {
-    grid-column-start: 3;
-    grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-start: 1;
 }
 .app--fun-2 {
-    grid-row-start: 3;
-    grid-column-start: 3;
+  grid-row-start: 3;
+  grid-column-start: 3;
 }
 .app--fun-3 {
-    grid-row-start: 5;
-    grid-column-start: 5;
+  grid-row-start: 5;
+  grid-column-start: 5;
 }
